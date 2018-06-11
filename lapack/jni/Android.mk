@@ -16,7 +16,7 @@ LOCAL_EXPORT_LDLIBS := $(LOCAL_LDLIBS)
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE:= testlapack
-LOCAL_SRC_FILES:= testclapack.cpp
-LOCAL_STATIC_LIBRARIES := lapack
-include $(BUILD_SHARED_LIBRARY)
+#LOCAL_MODULE:= testlapack
+#LOCAL_SRC_FILES:= testclapack.cpp
+#LOCAL_STATIC_LIBRARIES := lapack
+#include $(BUILD_SHARED_LIBRARY)
